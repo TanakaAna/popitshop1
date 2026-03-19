@@ -273,6 +273,12 @@ body {
 .rules__item:last-child {
     margin-bottom: 0;
 }
+@media (max-width: 900px) {
+    .products__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
 @media (max-width: 768px) {
     .header__burger {
         display: flex;
